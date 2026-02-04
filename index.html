@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game (API)</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="confetti"></div>
+    <div class="container">
+        <h1>🎯 Hangman Game</h1>
+        <div class="game-box">
+            <div class="hangman">
+                <p>❌ Wrong Attempts: <span id="wrongCount">0</span>/6</p>
+                <div id="hangmanDrawing" class="drawing">🙂</div>
+            </div>
+
+            <div class="word-section">
+                <h2 id="wordDisplay">_ _ _ _</h2>
+                <p class="hint" id="meaningText">Meaning: Loading...</p>
+            </div>
+            <div class="keyboard" id="keyboard"></div>
+            <button id="hintBtn">💡 Hint</button>
+            <p id="hintInfo">Hints left: 2</p>
+            <button id="newGameBtn">🔄 New Game</button>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
