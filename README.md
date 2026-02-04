@@ -5,22 +5,16 @@ The game fetches random words from an API, shows the meaning, allows limited hin
 
 🚀 Features
 
-🎲 Random word fetched using API
+- 🎲 Random word fetched using API
 
-📖 Word meaning always visible
+- 📖 Word meaning always visible
 
-💡 Hint system (reveals letters)
+- 💡 Hint system (reveals letters)
 
 🔊 Sounds for:
 
-Correct letter
-
-Wrong letter
-
-Win
-
-Lose
-
+- Correct letter, Wrong letter, Win, Lose
+  
 🎉 Confetti animation when you win
 
 🎮 On-screen keyboard (A-Z)
@@ -29,10 +23,4 @@ Lose
 
 🛠️ Technologies Used
 
-HTML
-
-CSS
-
-JavaScript
-
-API (Random word + meaning)
+- HTML, CSS, JavaScript, API(Random word + Meaning)
